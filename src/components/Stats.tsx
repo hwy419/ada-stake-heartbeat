@@ -1,29 +1,29 @@
-import { TrendingUp, Percent, Coins, Blocks } from "lucide-react";
+import { Coins, Percent, MapPin, Blocks, Users, Trophy } from "lucide-react";
 
 const stats = [
   {
-    icon: TrendingUp,
-    value: "4.2%",
-    label: "Annual ROA",
-    description: "Lifetime return on ADA",
-  },
-  {
-    icon: Percent,
-    value: "1%",
-    label: "Pool Margin",
-    description: "Low fees, more rewards",
-  },
-  {
     icon: Coins,
-    value: "500K",
-    label: "ADA Pledge",
+    value: "₳10,000",
+    label: "Pledge",
     description: "Our commitment to you",
   },
   {
     icon: Blocks,
-    value: "2,847",
-    label: "Blocks Minted",
-    description: "Successfully produced",
+    value: "340 ₳",
+    label: "Fixed Fee",
+    description: "Per block minted",
+  },
+  {
+    icon: Percent,
+    value: "1.5%",
+    label: "Margin",
+    description: "More rewards for you",
+  },
+  {
+    icon: MapPin,
+    value: "USA",
+    label: "Location",
+    description: "Alabama, self-hosted",
   },
 ];
 
@@ -35,10 +35,10 @@ const Stats = () => {
       <div className="container relative z-10 px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Pool <span className="text-gradient">Performance</span>
+            Pool <span className="text-gradient">Statistics</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Real-time statistics showcasing our commitment to delivering consistent rewards.
+            Transparent operations with competitive fees that keep more rewards in your wallet.
           </p>
         </div>
 
@@ -70,6 +70,16 @@ const Stats = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Pool ID Section */}
+        <div className="mt-12 text-center">
+          <div className="inline-flex flex-col items-center gap-2 p-6 rounded-2xl bg-card border border-border">
+            <p className="text-sm text-muted-foreground">Pool ID (Ticker: NACHO)</p>
+            <code className="text-xs md:text-sm text-primary font-mono break-all max-w-md">
+              pool1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            </code>
+          </div>
         </div>
       </div>
     </section>
