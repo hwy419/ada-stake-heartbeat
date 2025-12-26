@@ -23,7 +23,7 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
           <span className="text-foreground">Stake with</span>
           <br />
-          <span className="text-gradient">APEX Pool</span>
+          <span className="text-gradient">Nacho Pool</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>

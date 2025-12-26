@@ -12,7 +12,7 @@ const steps = [
     icon: Search,
     step: "02",
     title: "Find Our Pool",
-    description: "Search for 'APEX' or use our Pool ID in your wallet's delegation section.",
+    description: "Search for 'NACHO' or use our Pool ID in your wallet's delegation section.",
   },
   {
     icon: MousePointer,
@@ -75,7 +75,7 @@ const HowToDelegate = () => {
         <div className="text-center">
           <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 rounded-2xl bg-card border border-border">
             <div className="text-left">
-              <p className="text-sm text-muted-foreground mb-1">Pool ID (Ticker: APEX)</p>
+              <p className="text-sm text-muted-foreground mb-1">Pool ID (Ticker: NACHO)</p>
               <code className="text-xs md:text-sm text-primary font-mono break-all">
                 pool1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
               </code>
