@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-2xl font-bold text-foreground">Nacho Pool</span>
             </div>
             <p className="text-muted-foreground max-w-sm mb-6">
-              A reliable Cardano stake pool committed to network decentralization and delivering consistent rewards to our delegators.
+              NACHO Stake Pool delivers secure, reliable block production from independently operated infrastructure in the United States. We're committed to strengthening Cardano's decentralization.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors duration-300">
@@ -34,27 +34,34 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-foreground mb-4">Resources</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Pool Stats</a></li>
+              <li><a href="#stats" className="text-muted-foreground hover:text-primary transition-colors">Pool Stats</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Cardano Explorer</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Staking Guide</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">FAQ</a></li>
+              <li><a href="#delegate" className="text-muted-foreground hover:text-primary transition-colors">Staking Guide</a></li>
+              <li><a href="#faq" className="text-muted-foreground hover:text-primary transition-colors">FAQ</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold text-foreground mb-4">Wallets</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Eternl</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Yoroi</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Daedalus</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Lace</a></li>
+              <li><a href="https://eternl.io" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">Eternl</a></li>
+              <li><a href="https://yoroi-wallet.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">Yoroi</a></li>
+              <li><a href="https://daedaluswallet.io" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">Daedalus</a></li>
+              <li><a href="https://www.lace.io" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">Lace</a></li>
             </ul>
           </div>
         </div>
         
-        <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
+        {/* Disclaimer */}
+        <div className="py-6 border-t border-border mb-6">
+          <p className="text-xs text-muted-foreground leading-relaxed max-w-4xl">
+            <strong>Disclaimer:</strong> Staking rewards are not guaranteed and depend on various network factors including pool performance, total network stake, and slot leader selection. Past performance does not guarantee future results. Always do your own research before delegating.
+          </p>
+        </div>
+        
+        <div className="pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 Nacho Pool. All rights reserved.
+            © 2025 NACHO Stake Pool. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
             Built on <span className="text-primary">Cardano</span>

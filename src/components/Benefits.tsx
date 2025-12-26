@@ -1,35 +1,35 @@
-import { Shield, Zap, Clock, Users, Server, HeartHandshake } from "lucide-react";
+import { Shield, Zap, Globe, Coins, HeartHandshake, MapPin } from "lucide-react";
 
 const benefits = [
   {
     icon: Shield,
-    title: "Enterprise Security",
-    description: "Multi-layer security infrastructure with 24/7 monitoring and automated failover systems.",
+    title: "Secure Infrastructure",
+    description: "Self-hosted hardware operated with security as the top priority. No shared cloud vulnerabilities.",
   },
   {
     icon: Zap,
-    title: "High Performance",
-    description: "Optimized relay nodes across multiple regions for maximum block production efficiency.",
+    title: "Reliable Operation",
+    description: "Consistent uptime and proactive monitoring ensure we're always ready to mint blocks when selected.",
   },
   {
-    icon: Clock,
-    title: "99.9% Uptime",
-    description: "Redundant infrastructure ensures your stake is always working to earn rewards.",
+    icon: Globe,
+    title: "True Decentralization",
+    description: "Independent operation from the United States helps distribute Cardano's network geographically and operationally.",
   },
   {
-    icon: Users,
-    title: "Community Focused",
-    description: "Active community engagement with transparent operations and regular updates.",
-  },
-  {
-    icon: Server,
-    title: "Bare Metal Servers",
-    description: "No shared cloud resources. Dedicated hardware for consistent performance.",
+    icon: Coins,
+    title: "Competitive Rewards",
+    description: "1.5% margin means more rewards stay in your wallet. Standard 340 ADA fixed fee per block.",
   },
   {
     icon: HeartHandshake,
-    title: "Long-term Commitment",
-    description: "We're here for the long run, committed to Cardano's vision and your success.",
+    title: "Operator Commitment",
+    description: "10,000 ADA pledge demonstrates our long-term investment in the pool's success and the Cardano ecosystem.",
+  },
+  {
+    icon: MapPin,
+    title: "US-Based",
+    description: "Operated from self-hosted infrastructure in Alabama, contributing to geographic diversity on the network.",
   },
 ];
 
@@ -39,10 +39,10 @@ const Benefits = () => {
       <div className="container relative z-10 px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Why Stake with <span className="text-gradient">NACHO</span>?
+            Why Delegate to <span className="text-gradient">NACHO</span>?
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            We combine technical excellence with community values to deliver the best staking experience.
+            Independent infrastructure built for reliability and true decentralization.
           </p>
         </div>
 

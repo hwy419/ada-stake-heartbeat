@@ -1,34 +1,42 @@
 import { Wallet, Search, MousePointer, PartyPopper } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { toast } from "sonner";
 
 const steps = [
   {
     icon: Wallet,
     step: "01",
-    title: "Get a Wallet",
-    description: "Download a Cardano wallet like Eternl, Yoroi, or Daedalus and secure your ADA.",
+    title: "Get a Cardano Wallet",
+    description: "Download a compatible wallet like Daedalus, Yoroi, Eternl, or Lace. These wallets support native staking on Cardano.",
   },
   {
     icon: Search,
     step: "02",
-    title: "Find Our Pool",
-    description: "Search for 'NACHO' or use our Pool ID in your wallet's delegation section.",
+    title: "Find NACHO",
+    description: "Search for our ticker NACHO or use our Pool ID to locate us in your wallet's delegation center.",
   },
   {
     icon: MousePointer,
     step: "03",
-    title: "Delegate",
-    description: "Select our pool and confirm the delegation. Your ADA stays in your wallet.",
+    title: "Delegate Your ADA",
+    description: "Select NACHO and confirm your delegation. Your ADA never leaves your wallet—you maintain full control at all times.",
   },
   {
     icon: PartyPopper,
     step: "04",
     title: "Earn Rewards",
-    description: "Rewards start after 15-20 days and are automatically distributed each epoch.",
+    description: "Rewards are distributed automatically every epoch (5 days). Sit back and watch your ADA grow while supporting decentralization.",
   },
 ];
 
+const POOL_ID = "pool1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
 const HowToDelegate = () => {
+  const copyPoolId = () => {
+    navigator.clipboard.writeText(POOL_ID);
+    toast.success("Pool ID copied to clipboard!");
+  };
+
   return (
     <section className="py-24 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-accent/5 to-transparent" />
@@ -39,7 +47,7 @@ const HowToDelegate = () => {
             Start Earning in <span className="text-gradient">4 Steps</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Delegating is simple and your ADA never leaves your wallet. Start earning passive income today.
+            Delegating is simple and your ADA never leaves your wallet. Start earning passive rewards today.
           </p>
         </div>
 
@@ -77,11 +85,11 @@ const HowToDelegate = () => {
             <div className="text-left">
               <p className="text-sm text-muted-foreground mb-1">Pool ID (Ticker: NACHO)</p>
               <code className="text-xs md:text-sm text-primary font-mono break-all">
-                pool1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                {POOL_ID}
               </code>
             </div>
-            <Button variant="outline" size="sm">
-              Copy ID
+            <Button variant="outline" size="sm" onClick={copyPoolId}>
+              Copy Pool ID
             </Button>
           </div>
         </div>
