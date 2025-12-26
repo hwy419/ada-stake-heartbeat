@@ -11,9 +11,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold">A</span>
+              <span className="text-primary-foreground font-bold">N</span>
             </div>
-            <span className="text-xl font-bold text-foreground">APEX</span>
+            <span className="text-xl font-bold text-foreground">NACHO</span>
           </div>
 
           {/* Desktop Navigation */}

@@ -8,9 +8,9 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-xl gradient-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">A</span>
+                <span className="text-primary-foreground font-bold text-lg">N</span>
               </div>
-              <span className="text-2xl font-bold text-foreground">APEX Pool</span>
+              <span className="text-2xl font-bold text-foreground">Nacho Pool</span>
             </div>
             <p className="text-muted-foreground max-w-sm mb-6">
               A reliable Cardano stake pool committed to network decentralization and delivering consistent rewards to our delegators.
@@ -54,7 +54,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 APEX Pool. All rights reserved.
+            © 2024 Nacho Pool. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
             Built on <span className="text-primary">Cardano</span>

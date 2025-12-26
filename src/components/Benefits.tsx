@@ -39,7 +39,7 @@ const Benefits = () => {
       <div className="container relative z-10 px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Why Stake with <span className="text-gradient">APEX</span>?
+            Why Stake with <span className="text-gradient">NACHO</span>?
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             We combine technical excellence with community values to deliver the best staking experience.
