@@ -18,7 +18,7 @@ const About = () => {
 
           <div className="p-8 md:p-12 rounded-3xl bg-card border border-border">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              NACHO Stake Pool is an independently operated Cardano stake pool built on the principle that true decentralization requires reliable, distributed infrastructure. Operating from self-hosted hardware in the United States, we provide the consistent uptime and professional node management that the Cardano network depends on.
+              NACHO Stake Pool is an independently operated Cardano stake pool built on the principle that true decentralization requires reliable, distributed infrastructure. Founded by a passionate systems administrator with deep experience in network architecture and secure cloud environments, NACHO brings professional-grade expertise to Cardano's decentralized ecosystem. Operating from self-hosted hardware in the United States, we provide the consistent uptime and professional node management that the Cardano network depends on.
             </p>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
