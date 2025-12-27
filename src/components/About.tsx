@@ -18,11 +18,11 @@ const About = () => {
 
           <div className="p-8 md:p-12 rounded-3xl bg-card border border-border">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              NACHO Stake Pool is an independently operated Cardano stake pool built on the principle that true decentralization requires reliable, distributed infrastructure. Operating from self-hosted hardware in Alabama, USA, we provide the consistent uptime and professional node management that the Cardano network depends on.
+              NACHO Stake Pool is an independently operated Cardano stake pool built on the principle that true decentralization requires reliable, distributed infrastructure. Operating from self-hosted hardware in the United States, we provide the consistent uptime and professional node management that the Cardano network depends on.
             </p>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              As a new pool, we're focused on earning delegator trust through transparent operation and unwavering reliability. Our 10,000 ADA pledge demonstrates our commitment to the network, while our competitive 1.5% margin ensures delegators retain more of their rewards.
+              As a new pool, we're focused on earning delegator trust through transparent operation and unwavering reliability. Our 10,000 ADA pledge demonstrates our commitment to the network, while our competitive 1.5% margin ensures delegators retain more of their rewards. Our system architecture is constantly revised to improve overall security, reliability, and sustainability.
             </p>
 
             <div className="flex flex-col md:flex-row gap-6 pt-8 border-t border-border">

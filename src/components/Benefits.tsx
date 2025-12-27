@@ -29,7 +29,7 @@ const benefits = [
   {
     icon: MapPin,
     title: "US-Based",
-    description: "Operated from self-hosted infrastructure in Alabama, contributing to geographic diversity on the network.",
+    description: "Operated from self-hosted infrastructure in the United States, contributing to geographic diversity on the network.",
   },
 ];
 
