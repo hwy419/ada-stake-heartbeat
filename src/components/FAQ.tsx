@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: "Where is the pool located?",
-    answer: "NACHO operates from self-hosted infrastructure in Alabama, USA. This contributes to the geographic distribution of Cardano's network.",
+    answer: "NACHO operates from self-hosted infrastructure in the United States. This contributes to the geographic distribution of Cardano's network.",
   },
 ];
 

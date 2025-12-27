@@ -23,7 +23,7 @@ const stats = [
     icon: MapPin,
     value: "USA",
     label: "Location",
-    description: "Alabama, self-hosted",
+    description: "Self-hosted in America",
   },
 ];
 
