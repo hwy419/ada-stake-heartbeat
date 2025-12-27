@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="animate-fade-in-up">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-8">
             <Shield className="w-4 h-4 text-primary" />
-            <span className="text-sm text-primary font-medium">Slang for... not yours</span>
+            <span className="text-sm text-primary font-medium">Slang for... 'Not Yours'</span>
           </div>
         </div>
 
