@@ -29,7 +29,7 @@ const steps = [
   },
 ];
 
-const POOL_ID = "pool1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const POOL_ID = "pool1dhugawja82wkmrq0lhd24uyrhm02v7grdhnren9r2qgujsh5kml";
 
 const HowToDelegate = () => {
   const copyPoolId = () => {
