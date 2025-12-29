@@ -11,7 +11,7 @@ const faqs = [
     answer: "No. Your ADA is never locked and never leaves your wallet. You can spend, transfer, or re-delegate at any time with no penalties.",
   },
   {
-    question: "When will I start earning rewards?",
+    question: "When will I start garnering rewards?",
     answer: "Rewards begin after a brief warm-up period of 15-20 days (3-4 epochs). After that, rewards are distributed every 5 days automatically.",
   },
   {

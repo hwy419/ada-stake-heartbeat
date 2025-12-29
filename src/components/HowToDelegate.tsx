@@ -24,7 +24,7 @@ const steps = [
   {
     icon: PartyPopper,
     step: "04",
-    title: "Earn Rewards",
+    title: "Garner Rewards",
     description: "Rewards are distributed automatically every epoch (5 days). Sit back and watch your ADA grow while supporting decentralization.",
   },
 ];
@@ -44,10 +44,10 @@ const HowToDelegate = () => {
       <div className="container relative z-10 px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Start Earning in <span className="text-gradient">4 Steps</span>
+            Start Garnering in <span className="text-gradient">4 Steps</span>
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Delegating is simple and your ADA never leaves your wallet. Start earning passive rewards today.
+            Delegating is simple and your ADA never leaves your wallet. Start garnering passive rewards today.
           </p>
         </div>
 
