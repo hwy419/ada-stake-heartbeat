@@ -26,7 +26,7 @@ const About = () => {
             </p>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              As a new pool, we're focused on earning delegator trust through transparent operation and unwavering reliability. Our 10,000 ADA pledge demonstrates our commitment to the network, while our competitive 1.5% margin ensures delegators retain more of their rewards.
+              As a growing pool, we're focused on garnering delegator trust through transparent operation and unwavering reliability. Our 10,000 ADA pledge demonstrates our commitment to the network, while our competitive 1.5% margin ensures delegators retain more of their rewards.
             </p>
 
             <div className="flex flex-col md:flex-row gap-6 pt-8 border-t border-border">
