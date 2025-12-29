@@ -22,7 +22,11 @@ const About = () => {
             </p>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              As a new pool, we're focused on earning delegator trust through transparent operation and unwavering reliability. Our 10,000 ADA pledge demonstrates our commitment to the network, while our competitive 1.5% margin ensures delegators retain more of their rewards. Our system architecture is constantly revised to improve overall security, reliability, and sustainability.
+              Every aspect of our infrastructure reflects meticulous design and skillful configuration. Our block producer node—the heart of the operation—is protected by multiple relay nodes that serve as the first line of defense against adverse network actors. This layered architecture ensures that even under challenging conditions, the block producer remains secure, isolated, and resilient. We continuously refine our systems to maintain the highest standards of security, reliability, and sustainability.
+            </p>
+            
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
+              As a new pool, we're focused on earning delegator trust through transparent operation and unwavering reliability. Our 10,000 ADA pledge demonstrates our commitment to the network, while our competitive 1.5% margin ensures delegators retain more of their rewards.
             </p>
 
             <div className="flex flex-col md:flex-row gap-6 pt-8 border-t border-border">
