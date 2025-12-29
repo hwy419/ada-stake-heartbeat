@@ -77,7 +77,7 @@ const Stats = () => {
           <div className="inline-flex flex-col items-center gap-2 p-6 rounded-2xl bg-card border border-border">
             <p className="text-sm text-muted-foreground">Pool ID (Ticker: NACHO)</p>
             <code className="text-xs md:text-sm text-primary font-mono break-all max-w-md">
-              pool1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+              pool1dhugawja82wkmrq0lhd24uyrhm02v7grdhnren9r2qgujsh5kml
             </code>
           </div>
         </div>
